@@ -176,6 +176,7 @@ def play(board)
 
   loop do
 
+    system "clear" or system "cls"
     display_board(board)
 
     if over?(board)
