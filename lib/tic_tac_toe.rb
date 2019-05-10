@@ -190,6 +190,7 @@ def play(board)
       end
 
     else
+      puts "Choose a space by inputting a number (1-9):"
       turn(board)
     end
   end
