@@ -195,8 +195,8 @@ def play(board)
     else
       puts "Choose a space by inputting a number (1-9):"
       turn(board)
-      system "clear"
-      system "cls"
+      #system "clear"
+      #system "cls"
     end
   end
 end
