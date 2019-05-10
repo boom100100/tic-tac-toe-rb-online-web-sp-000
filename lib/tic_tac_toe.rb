@@ -177,6 +177,7 @@ def play(board)
   loop do
 
     display_board(board)
+    
     if over?(board)
 
       if winIterator(board, "X") == "X"
