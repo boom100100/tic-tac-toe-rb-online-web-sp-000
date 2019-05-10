@@ -176,8 +176,7 @@ def play(board)
 
   loop do
 
-    system "clear"
-     system "cls"
+    
     display_board(board)
 
     if over?(board)
@@ -196,6 +195,8 @@ def play(board)
     else
       puts "Choose a space by inputting a number (1-9):"
       turn(board)
+      system "clear"
+      system "cls"
     end
   end
 end
